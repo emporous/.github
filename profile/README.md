@@ -17,7 +17,7 @@ The UOR Framework is an API that facilitates the interaction of all elements in 
  - Graph 2: Object Attributes manifest (required)
  - Graph 3: Relational Attributes (optional)
 
-### What can it do?
+### What can I use it for?
  - Identity Attribute and Attestation (Identity Provider)
  - Object Attribute and Attestation (Inventory Management)
  - Conceptual Object Attrubution (Digitized Idea Records)
