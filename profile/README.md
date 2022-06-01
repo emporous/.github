@@ -12,7 +12,7 @@ The UOR Framework is an API that facilitates the interaction of all elements in 
  - Establishes the basis for attribute based mutating dataset queries.
  - Flattens all data objects, real objects, and conceptual objects as attributable data objects.
 
-### All datasets are stored with up to 3 spec DAGs
+### All datasets are stored with up to 3 graphs
  - Graph 1: OCI Artifact manifest (required)
  - Graph 2: Object Attributes manifest (required)
  - Graph 3: Relational Attributes (optional)
