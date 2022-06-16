@@ -12,15 +12,15 @@ The UOR Framework is an API that facilitates the interaction of all elements in 
  - Establishes the basis for attribute based mutating dataset queries.
  - Flattens all data objects, real objects, and conceptual objects as attributable data objects.
 
-### All datasets are stored with up to 3 graphs
- - Graph 1: OCI Artifact manifest (required)
- - Graph 2: Object Attributes manifest (required)
- - Graph 3: Relational Attributes (optional)
+### All collections can be organized with three graphs
+ - Graph 1: OCI Artifact DAG (required)
+ - Graph 2: Undirected Attribute Graph  (required)
+ - Graph 3: Object Relational References   (optional)
 
 ### What kinds of things can I build with it?
  - Identity Attribute and Attestation (Identity Provider)
  - Object Attribute and Attestation (Inventory Management)
- - Conceptual Object Attrubution (Digitized Idea Records)
+ - Object Attrubution
  - Dynamic Information System Provisioning (Infrastructure & Node Provisioning)
  - Dynamic Relational Dataset Assembly
  - Secure Supply Chains (Attestable, Verifyable, Reproducible Software & Data Supply Chains)
