@@ -1,26 +1,17 @@
 # Universal Object Reference Framework
 
-The UOR Framework is an API that facilitates the interaction of all elements in an information system.
+The UOR Framework describes a single API that can be used to interact with any element within an information system. 
 
-### UOR Facilitates:
- - Normalizes distribution as a standardized dataset format for all data types in an information system.
- - Publishes data attributes as a schema in the dataset object.
- - Exposes all dataset content and metadata via content addressable API.
- - Distributes data objects and runtime together as attributable layers in a dataset.
- - Makes all data knowable and attestable pre and post retrival.
- - Makes all data attributes discoverable before retrival. 
- - Establishes the basis for attribute based mutating dataset queries.
- - Flattens all data objects, real objects, and conceptual objects as attributable data objects.
+## Where to Start
 
-### All collections can be organized with three graphs
- - Graph 1: OCI Artifact DAG (required)
- - Graph 2: Undirected Attribute Graph  (required)
- - Graph 3: Object Relational References   (optional)
+### Getting Started Guide
+[Here](https://universalreference.io/docs/quick-start/) is a simple walk-through with the UOR Client CLI and introduction to UOR Concepts
 
-### What kinds of things can I build with it?
- - Identity Attribute and Attestation (Identity Provider)
- - Object Attribute and Attestation (Inventory Management)
- - Object Attrubution
- - Dynamic Information System Provisioning (Infrastructure & Node Provisioning)
- - Dynamic Relational Dataset Assembly
- - Secure Supply Chains (Attestable, Verifyable, Reproducible Software & Data Supply Chains)
+### UOR Client
+The UOR Client libraries and CLI are in located in the [uor-client-go](https://github.com/uor-framework/uor-client-go) repo. The CLI is the reference implementation of the UOR Client libraries. 
+
+### Examples
+There are several examples of how the UOR Client can be used. There is a consolidated [directory](https://github.com/uor-framework/examples) of example use cases for UOR. Please consider adding your use case and an optional demo to that repo.
+
+
+
