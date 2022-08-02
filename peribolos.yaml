@@ -1,0 +1,60 @@
+orgs:
+  uor-framework:
+    admins:
+      - adrezni
+      - afflom
+      - christianh814
+      - day0hero
+      - jpower432
+      - sabre1041
+      - usrbinkat
+    billing_email: alexander.flom@gmail.com
+    company: ""
+    default_repository_permission: read
+    description: Universal Object Reference Framework | Programmable Data
+    email: uor-framework@googlegroups.com
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ""
+    members:
+      - d10n
+      - sfxworks
+    members_can_create_repositories: true
+    name: UOR Framework
+    repos:
+      .github:
+        default_branch: main
+        description: UOR Framework
+        has_projects: true
+      examples:
+        default_branch: main
+        description: UOR example use-cases and demos
+        has_projects: true
+      organization:
+        default_branch: main
+        description: Organizational Maintenance
+        has_projects: true
+        private: true
+      samples:
+        default_branch: main
+        description: This repo contains reference implementations of sample content to demonstrate UOR core functionality
+        has_projects: true
+      uor-client-go:
+        default_branch: main
+        description: UOR Client
+        has_projects: true
+        homepage: https://uor-framework.github.io/
+      uor-framework:
+        default_branch: main
+        has_projects: true
+      uor-framework.github.io:
+        default_branch: main
+        description: Public GH Pages Repository
+        has_projects: true
+    teams:
+      maintainer:
+        description: maintainers team
+        maintainers:
+          - usrbinkat
+          - jpower432
+        privacy: closed
