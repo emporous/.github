@@ -1,13 +1,9 @@
 orgs:
   uor-framework:
     admins:
-      - adrezni
-      - afflom
-      - christianh814
-      - day0hero
-      - jpower432
       - sabre1041
-      - usrbinkat
+      - afflom
+      - jpower432
     billing_email: alexander.flom@gmail.com
     company: ""
     default_repository_permission: read
@@ -17,8 +13,12 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
+      - adrezni
+      - christianh814
       - d10n
+      - day0hero
       - sfxworks
+      - usrbinkat
     members_can_create_repositories: true
     name: UOR Framework
     repos:
@@ -52,9 +52,15 @@ orgs:
         description: Public GH Pages Repository
         has_projects: true
     teams:
-      maintainer:
-        description: maintainers team
-        maintainers:
-          - usrbinkat
-          - jpower432
+      ci:
+        description: ci-maintainers
+        privacy: closed
+      client:
+        description: client-maintainers
+        privacy: closed
+      docs:
+        description: docs-maintainers
+        privacy: closed
+      event:
+        description: event-maintainers
         privacy: closed
