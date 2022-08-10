@@ -53,14 +53,34 @@ orgs:
         has_projects: true
     teams:
       ci:
-        description: ci-maintainers
+        description: ""
         privacy: closed
+        teams:
+          ci-maintainers:
+            description: ""
+            privacy: closed
+            members: []
       client:
-        description: client-maintainers
+        description: ""
         privacy: closed
+        teams:
+          client-maintainers:
+            description: ""
+            privacy: closed
+            members: []
       docs:
-        description: docs-maintainers
+        description: ""
         privacy: closed
+        teams:
+          docs-maintainers:
+            description: ""
+            privacy: closed
+            members: []
       event:
-        description: event-maintainers
+        description: ""
         privacy: closed
+        teams:
+          event-maintainers:
+            description: ""
+            privacy: closed
+            members: []
