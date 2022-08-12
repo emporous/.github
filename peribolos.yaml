@@ -55,6 +55,9 @@ orgs:
       ci:
         description: ""
         privacy: closed
+        members: []
+        maintainers: []
+        repos: {}
         teams:
           ci-maintainers:
             description: ""
@@ -63,6 +66,9 @@ orgs:
       client:
         description: ""
         privacy: closed
+        members: []
+        maintainers: []
+        repos: {}
         teams:
           client-maintainers:
             description: ""
@@ -71,6 +77,9 @@ orgs:
       docs:
         description: ""
         privacy: closed
+        members: []
+        maintainers: []
+        repos: {}
         teams:
           docs-maintainers:
             description: ""
@@ -79,8 +88,12 @@ orgs:
       event:
         description: ""
         privacy: closed
+        members: []
+        maintainers: []
+        repos: {}
         teams:
           event-maintainers:
             description: ""
             privacy: closed
             members: []
+
