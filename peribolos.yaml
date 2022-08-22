@@ -4,6 +4,7 @@ orgs:
       - sabre1041
       - afflom
       - jpower432
+      - usrbinkat
     billing_email: alexander.flom@gmail.com
     company: ""
     default_repository_permission: read
@@ -18,7 +19,6 @@ orgs:
       - d10n
       - day0hero
       - sfxworks
-      - usrbinkat
     members_can_create_repositories: true
     name: UOR Framework
     repos:
