@@ -47,10 +47,15 @@ orgs:
       uor-framework:
         default_branch: main
         has_projects: true
-      uor-framework.github.io:
+      universalreference.io:
         default_branch: main
-        description: Public GH Pages Repository
+        description: Universal Reference Website
         has_projects: true
+      community:
+        default_branch: main
+        description: Community Organization
+        has_projects: true
+        private: false
     teams:
       ci:
         description: ""
@@ -71,6 +76,17 @@ orgs:
         repos: {}
         teams:
           client-maintainers:
+            description: ""
+            privacy: closed
+            members: []
+      community:
+        description: ""
+        privacy: closed
+        members: []
+        maintainers: []
+        repos: {}
+        teams:
+          docs-maintainers:
             description: ""
             privacy: closed
             members: []
