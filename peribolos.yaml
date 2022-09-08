@@ -44,11 +44,11 @@ orgs:
         default_branch: main
         description: UOR Client
         has_projects: true
-        homepage: https://uor-framework.github.io/
+        homepage: https://universalreference.io/
       uor-framework:
         default_branch: main
         has_projects: true
-      uor-framework.github.io:
+      universalreference:
         default_branch: main
         description: Public GH Pages Repository
         has_projects: true
