@@ -5,6 +5,7 @@ orgs:
       - afflom
       - jpower432
       - usrbinkat
+      - peribolos
     billing_email: alexander.flom@gmail.com
     company: ""
     default_repository_permission: read
