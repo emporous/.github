@@ -5,6 +5,7 @@ orgs:
       - afflom
       - jpower432
       - usrbinkat
+      - peribolos
     billing_email: alexander.flom@gmail.com
     company: ""
     default_repository_permission: read
@@ -43,13 +44,13 @@ orgs:
         default_branch: main
         description: UOR Client
         has_projects: true
-        homepage: https://uor-framework.github.io/
+        homepage: https://universalreference.io/
       uor-framework:
         default_branch: main
         has_projects: true
       universalreference.io:
         default_branch: main
-        description: Universal Reference Website
+        description: Universal Object Reference Website
         has_projects: true
       community:
         default_branch: main
