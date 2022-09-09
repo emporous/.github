@@ -48,9 +48,9 @@ orgs:
       uor-framework:
         default_branch: main
         has_projects: true
-      universalreference:
+      universalreference.io:
         default_branch: main
-        description: Public GH Pages Repository
+        description: Universal Object Reference Website
         has_projects: true
     teams:
       ci:
