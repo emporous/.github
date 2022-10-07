@@ -52,6 +52,10 @@ orgs:
         default_branch: main
         description: Universal Object Reference Website
         has_projects: true
+      collection-spec:
+        default_branch: main
+        description: UOR Collection Format
+        has_projects: true
     teams:
       ci:
         description: ""
