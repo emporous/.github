@@ -26,6 +26,10 @@ orgs:
         default_branch: main
         description: UOR Framework
         has_projects: true
+      distribution-spec:
+        default_branch: main
+        description: OCI Distribution Specification
+        has_projects: true
       examples:
         default_branch: main
         description: UOR example use-cases and demos
