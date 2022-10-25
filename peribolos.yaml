@@ -27,6 +27,10 @@ orgs:
         default_branch: main
         description: UOR Framework
         has_projects: true
+      cncf-distribution:
+        default_branch: main
+        description: The toolkit to pack, ship, store, and deliver content.
+        has_projects: true    
       distribution-spec:
         default_branch: main
         description: OCI Distribution Specification
