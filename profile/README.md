@@ -9,9 +9,9 @@ Emporous describes a single API that can be used to interact with any element wi
 [Here](https://universalreference.io/docs/category/getting-started) is a simple walk-through with the Emporous Client
 CLI and introduction to Emporous Concepts
 
-### UOR Client
+### Emporous Client
 
-The UOR Client libraries and CLI are in located in the [uor-client-go](https://github.com/emporous/emporous-go) repo.
+The Emporous Client libraries and CLI are in located in the [emporous-go](https://github.com/emporous/emporous-go) repo.
 The CLI is the reference implementation of the Emporous Client libraries.
 
 ### Examples
