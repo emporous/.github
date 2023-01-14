@@ -1,11 +1,10 @@
 orgs:
   emporous:
     admins:
-      - sabre1041
       - afflom
       - jpower432
+      - sabre1041
       - usrbinkat
-      - peribolos
     billing_email: alexander.flom@gmail.com
     company: ""
     default_repository_permission: read
@@ -30,11 +29,32 @@ orgs:
       cncf-distribution:
         default_branch: main
         description: The toolkit to pack, ship, store, and deliver content.
-        has_projects: true    
+        has_issues: false
+        has_projects: true
+      collection-spec:
+        default_branch: main
+        description: Emporous Collection Format
+        has_projects: true
       distribution-spec:
         default_branch: main
         description: OCI Distribution Specification
+        has_issues: false
         has_projects: true
+        has_wiki: false
+        homepage: https://opencontainers.org
+      emporous-docs:
+        default_branch: main
+        has_projects: true
+      emporous-go:
+        default_branch: main
+        description: Emporous client libraries and CLI implementation
+        has_projects: true
+        homepage: https://universalreference.io/
+      emporous.io:
+        default_branch: main
+        description: Emporous Website
+        has_projects: true
+        homepage: https://emporous.io
       examples:
         default_branch: main
         description: Emporous example use-cases and demos
@@ -48,65 +68,32 @@ orgs:
         default_branch: main
         description: This repo contains reference implementations of sample content to demonstrate Emporous core functionality
         has_projects: true
-      emporous-go:
-        default_branch: main
-        description: Emporous client libraries and CLI implementation
-        has_projects: true
-        homepage: https://universalreference.io/
-      emporous-docs:
-        default_branch: main
-        has_projects: true
-      emporous.io:
-        default_branch: main
-        description: Emporous Website
-        has_projects: true
-      collection-spec:
-        default_branch: main
-        description: Emporous Collection Format
-        has_projects: true
     teams:
       ci:
         description: ""
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
         teams:
           ci-maintainers:
             description: ""
             privacy: closed
-            members: []
       client:
         description: ""
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
         teams:
           client-maintainers:
             description: ""
             privacy: closed
-            members: []
       docs:
         description: ""
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
         teams:
           docs-maintainers:
             description: ""
             privacy: closed
-            members: []
       event:
         description: ""
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
         teams:
           event-maintainers:
             description: ""
             privacy: closed
-            members: []
-
