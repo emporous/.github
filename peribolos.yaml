@@ -56,9 +56,9 @@ orgs:
       emporous-docs:
         default_branch: main
         has_projects: true
-      universalreference.io:
+      emporous.io:
         default_branch: main
-        description: Universal Object Reference Website
+        description: Emporous Website
         has_projects: true
       collection-spec:
         default_branch: main
