@@ -64,6 +64,10 @@ orgs:
         default_branch: main
         description: Emporous Collection Format
         has_projects: true
+      universalreference.io-redirect:
+        default_branch: main
+        description: Temporary redirect from universalreference.io to emporous.io
+        has_projects: true
     teams:
       ci:
         description: ""
