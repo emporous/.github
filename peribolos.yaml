@@ -73,7 +73,7 @@ orgs:
         repos: {}
         teams:
           ci-maintainers:
-            description: ""
+            description: "people who maintain Emporous sample configs and demos"
             privacy: closed
             members:
               - d10n
