@@ -85,7 +85,7 @@ orgs:
         description: ""
         privacy: closed
         members: []
-        maintainers:
+        maintainers: []
         repos: {}
         teams:
           client-maintainers:
