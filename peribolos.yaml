@@ -77,7 +77,7 @@ orgs:
           - sfxworks
         teams:
           ci-maintainers:
-            description: "people who maintain Emporous sample configs for CI and demos"
+            description: "Continuous Integration artifact and configuration maintainers"
             privacy: closed
             members:
               - d10n
