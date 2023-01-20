@@ -70,14 +70,14 @@ orgs:
         has_projects: true
     teams:
       ci:
-        description: ""
+        description: "Continuous Integration"
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
+        members:
+          - d10n
+          - sfxworks
         teams:
           ci-maintainers:
-            description: "people who maintain Emporous sample configs and demos"
+            description: "people who maintain Emporous sample configs for CI and demos"
             privacy: closed
             members:
               - d10n
@@ -86,33 +86,33 @@ orgs:
               samples: write
               examples: write
       client:
-        description: ""
+        description: "ClI and Libraries"
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
+        members:
+          - d10n
+          - afflom
+          - jpower432
+          - sabre1041
         teams:
           client-maintainers:
-            description: "people who maintain client and CLI codebase"
+            description: "CLI and Library codebase maintainers"
             privacy: closed
             members:
               - d10n
               - afflom
               - jpower432
               - sabre1041
-            maintainer: []
             repos:
               emporous-go: write
               collection-spec: write
       docs:
-        description: ""
+        description: "Documentation"
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
+        members:
+          - usrbinkat
         teams:
           docs-maintainers:
-            description: "people who maintain organization documentation"
+            description: "Organization documentation maintainers"
             privacy: closed
             members:
               - usrbinkat
