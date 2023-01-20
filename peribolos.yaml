@@ -77,9 +77,14 @@ orgs:
         repos: {}
         teams:
           ci-maintainers:
-            description: ""
+            description: "people who maintain Emporous sample configs and demos"
             privacy: closed
-            members: []
+            members:
+              - d10n
+              - sfxworks
+            repos:
+              samples: write
+              examples: write
       client:
         description: ""
         privacy: closed
@@ -88,9 +93,17 @@ orgs:
         repos: {}
         teams:
           client-maintainers:
-            description: ""
+            description: "people who maintain client and CLI codebase"
             privacy: closed
-            members: []
+            members:
+              - d10n
+              - afflom
+              - jpower432
+              - sabre1041
+            maintainer: []
+            repos:
+              emporous-go: write
+              collection-spec: write
       docs:
         description: ""
         privacy: closed
@@ -99,9 +112,14 @@ orgs:
         repos: {}
         teams:
           docs-maintainers:
-            description: ""
+            description: "people who maintain organization documentation"
             privacy: closed
-            members: []
+            members:
+              - usrbinkat
+            repos:
+              emporous-docs: write
+              emporous.io: write
+
       event:
         description: ""
         privacy: closed
