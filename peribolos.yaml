@@ -1,11 +1,11 @@
 orgs:
   emporous:
     admins:
-      - sabre1041
       - afflom
       - jpower432
-      - usrbinkat
       - peribolos
+      - sabre1041
+      - usrbinkat
     billing_email: alexander.flom@gmail.com
     company: ""
     default_repository_permission: read
@@ -88,33 +88,35 @@ orgs:
       client:
         description: "ClI and Libraries"
         privacy: closed
-        members:
-          - d10n
+        maintainers:
           - afflom
           - jpower432
           - sabre1041
+        members:
+          - d10n
         teams:
           client-maintainers:
             description: "CLI and Library codebase maintainers"
             privacy: closed
-            members:
-              - d10n
+            maintainers:
               - afflom
               - jpower432
               - sabre1041
+            members:
+              - d10n
             repos:
               emporous-go: write
               collection-spec: write
       docs:
         description: "Documentation"
         privacy: closed
-        members:
+        maintainers:
           - usrbinkat
         teams:
           docs-maintainers:
             description: "Organization documentation maintainers"
             privacy: closed
-            members:
+            maintainers:
               - usrbinkat
             repos:
               emporous-docs: write
