@@ -84,7 +84,6 @@ orgs:
               - sfxworks
             repos:
               samples: write
-              examples: write
       client:
         description: "ClI and Libraries"
         privacy: closed
@@ -121,7 +120,21 @@ orgs:
             repos:
               emporous-docs: write
               emporous.io: write
-
+      examples:
+        description: "Emporous use case examples and demos"
+        privacy: closed
+        members:
+          - d10n
+          - sfxworks
+        teams:
+          examples-maintainers:
+            description: "Examples and demo maintainers"
+            privacy: closed
+            members:
+              - d10n
+              - sfxworks
+            repos:
+              examples: write
       event:
         description: ""
         privacy: closed
