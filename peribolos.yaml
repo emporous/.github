@@ -111,15 +111,18 @@ orgs:
         privacy: closed
         maintainers:
           - usrbinkat
+          - jpower432
         teams:
           docs-maintainers:
             description: "Organization documentation maintainers"
             privacy: closed
             maintainers:
               - usrbinkat
+              - jpower432
             repos:
               emporous-docs: write
               emporous.io: write
+              .github: true
       examples:
         description: "Emporous use case examples and demos"
         privacy: closed
