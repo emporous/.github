@@ -122,7 +122,7 @@ orgs:
             repos:
               emporous-docs: write
               emporous.io: write
-              .github: true
+              .github: write
       examples:
         description: "Emporous use case examples and demos"
         privacy: closed
