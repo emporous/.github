@@ -113,15 +113,15 @@ orgs:
         description: "Documentation"
         privacy: closed
         maintainers:
-          - usrbinkat
           - jpower432
+          - usrbinkat
         teams:
           docs-maintainers:
             description: "Organization documentation maintainers"
             privacy: closed
             maintainers:
-              - usrbinkat
               - jpower432
+              - usrbinkat
             repos:
               community: write
               emporous.io: write
