@@ -53,9 +53,12 @@ orgs:
         description: Emporous client libraries and CLI implementation
         has_projects: true
         homepage: https://universalreference.io/
-      emporous-docs:
+      community:
         default_branch: main
+        description: Emporous Community
+        homepage: https://universalreference.io/community
         has_projects: true
+        private: false
       emporous.io:
         default_branch: main
         description: Emporous Website
@@ -68,11 +71,6 @@ orgs:
         default_branch: main
         description: Temporary redirect from universalreference.io to emporous.io
         has_projects: true
-      community:
-        default_branch: main
-        description: Community Organization
-        has_projects: true
-        private: false
     teams:
       ci:
         description: "Continuous Integration"
@@ -125,9 +123,11 @@ orgs:
               - usrbinkat
               - jpower432
             repos:
-              emporous-docs: write
+              community: write
               emporous.io: write
               .github: true
+            previously:
+              - emporous-docs
       examples:
         description: "Emporous use case examples and demos"
         privacy: closed
