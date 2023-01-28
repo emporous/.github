@@ -1,16 +1,16 @@
 orgs:
-  uor-framework:
+  emporous:
     admins:
-      - sabre1041
       - afflom
       - jpower432
-      - usrbinkat
       - peribolos
+      - sabre1041
+      - usrbinkat
     billing_email: alexander.flom@gmail.com
     company: ""
     default_repository_permission: read
-    description: Universal Object Reference Framework | Programmable Data
-    email: uor-framework@googlegroups.com
+    description: The smart proxy for container registries
+    email: emporous@googlegroups.com
     has_organization_projects: true
     has_repository_projects: true
     location: ""
@@ -21,15 +21,23 @@ orgs:
       - day0hero
       - sfxworks
     members_can_create_repositories: true
-    name: UOR Framework
+    name: Emporous
     repos:
       .github:
         default_branch: main
-        description: UOR Framework
+        description: Emporous
+        has_projects: true
+      cncf-distribution:
+        default_branch: main
+        description: The toolkit to pack, ship, store, and deliver content.
+        has_projects: true    
+      distribution-spec:
+        default_branch: main
+        description: OCI Distribution Specification
         has_projects: true
       examples:
         default_branch: main
-        description: UOR example use-cases and demos
+        description: Emporous example use-cases and demos
         has_projects: true
       organization:
         default_branch: main
@@ -38,19 +46,27 @@ orgs:
         private: true
       samples:
         default_branch: main
-        description: This repo contains reference implementations of sample content to demonstrate UOR core functionality
+        description: This repo contains reference implementations of sample content to demonstrate Emporous core functionality
         has_projects: true
-      uor-client-go:
+      emporous-go:
         default_branch: main
-        description: UOR Client
+        description: Emporous client libraries and CLI implementation
         has_projects: true
         homepage: https://universalreference.io/
-      uor-framework:
+      emporous-docs:
         default_branch: main
         has_projects: true
-      universalreference.io:
+      emporous.io:
         default_branch: main
-        description: Universal Object Reference Website
+        description: Emporous Website
+        has_projects: true
+      collection-spec:
+        default_branch: main
+        description: Emporous Collection Format
+        has_projects: true
+      universalreference.io-redirect:
+        default_branch: main
+        description: Temporary redirect from universalreference.io to emporous.io
         has_projects: true
       community:
         default_branch: main
@@ -59,49 +75,74 @@ orgs:
         private: false
     teams:
       ci:
-        description: ""
+        description: "Continuous Integration"
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
+        members:
+          - d10n
+          - sfxworks
         teams:
           ci-maintainers:
-            description: ""
+            description: "Continuous Integration artifact and configuration maintainers"
             privacy: closed
-            members: []
+            members:
+              - d10n
+              - sfxworks
+            repos:
+              samples: write
       client:
-        description: ""
+        description: "ClI and Libraries"
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
+        maintainers:
+          - afflom
+          - jpower432
+          - sabre1041
+        members:
+          - d10n
         teams:
           client-maintainers:
-            description: ""
+            description: "CLI and Library codebase maintainers"
             privacy: closed
-            members: []
-      community:
-        description: ""
-        privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
-        teams:
-          docs-maintainers:
-            description: ""
-            privacy: closed
-            members: []
+            maintainers:
+              - afflom
+              - jpower432
+              - sabre1041
+            members:
+              - d10n
+            repos:
+              emporous-go: write
+              collection-spec: write
       docs:
-        description: ""
+        description: "Documentation"
         privacy: closed
-        members: []
-        maintainers: []
-        repos: {}
+        maintainers:
+          - usrbinkat
+          - jpower432
         teams:
           docs-maintainers:
-            description: ""
+            description: "Organization documentation maintainers"
             privacy: closed
-            members: []
+            maintainers:
+              - usrbinkat
+              - jpower432
+            repos:
+              emporous-docs: write
+              emporous.io: write
+              .github: true
+      examples:
+        description: "Emporous use case examples and demos"
+        privacy: closed
+        members:
+          - d10n
+          - sfxworks
+        teams:
+          examples-maintainers:
+            description: "Examples and demo maintainers"
+            privacy: closed
+            members:
+              - d10n
+              - sfxworks
+            repos:
+              examples: write
       event:
         description: ""
         privacy: closed
