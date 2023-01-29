@@ -125,7 +125,7 @@ orgs:
             repos:
               community: write
               emporous.io: write
-              .github: true
+              .github: write
             previously:
               - emporous-docs
       examples:
