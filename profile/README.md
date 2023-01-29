@@ -6,7 +6,7 @@ Emporous describes a single API that can be used to interact with any element wi
 
 ### Getting Started Guide
 
-[Here](https://universalreference.io/docs/category/getting-started) is a simple walk-through with the Emporous Client
+[Here](https://emporous.io/docs/category/getting-started) is a simple walk-through with the Emporous Client
 CLI and introduction to Emporous Concepts
 
 ### Emporous Client

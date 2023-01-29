@@ -52,7 +52,7 @@ orgs:
         default_branch: main
         description: Emporous client libraries and CLI implementation
         has_projects: true
-        homepage: https://universalreference.io/
+        homepage: https://emporous.io/
       emporous-docs:
         default_branch: main
         has_projects: true
