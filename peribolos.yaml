@@ -9,7 +9,7 @@ orgs:
     billing_email: alexander.flom@gmail.com
     company: ""
     default_repository_permission: read
-    description: The smart proxy for container registries
+    description: An open source toolkit to manage different types of content in a single, unified system.
     email: emporous@googlegroups.com
     has_organization_projects: true
     has_repository_projects: true
