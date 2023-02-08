@@ -71,6 +71,10 @@ orgs:
         default_branch: main
         description: Temporary redirect from universalreference.io to emporous.io
         has_projects: true
+      enhancements:
+        default_branch: main
+        description: Enhancement tracking for Emporous
+        has_projects: true
     teams:
       ci:
         description: "Continuous Integration"
